@@ -1,0 +1,24 @@
+{
+  "list": [
+    {
+      "name": "Daniel Valero",
+      "age": "29"
+    },
+    {
+      "name": "Annarita Ciccarone",
+      "age": "23"
+    },
+    {
+      "name": "Nico Rojas",
+      "age": "30"
+    },
+    {
+      "name": "Jose Pereira",
+      "age": "29"
+    },
+    {
+      "name": "Manuel Mendes",
+      "age": "32"
+    }
+  ]
+}
