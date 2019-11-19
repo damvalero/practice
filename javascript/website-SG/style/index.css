@@ -1,0 +1,421 @@
+* {
+  /* outline: 0.5px red dashed; */
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+.title {
+  font-family: DIN Condensed;
+}
+
+.top-tittle {
+  font-size: 110px;
+}
+
+.arrange-space {
+  margin: 0;
+  line-height: 80px;
+}
+.arrange-space2 {
+  margin: 0;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 70px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+.mynav {
+  position: fixed;
+  background: transparent !important;
+}
+
+.navbar .nav-item .nav-link {
+  color: white;
+}
+
+.nav-font1 {
+  font-family: DIN Condensed;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+li {
+  margin: 12px;
+}
+
+.nav-font2 {
+  font-family: DIN Condensed;
+  font-size: 19px;
+}
+
+.main-header {
+  background: url(../images/c950145dd175ae5cf8b26b794cedfbe2.png);
+  background-size: cover;
+  min-height: 1000px;
+}
+
+.peace-nav {
+  padding-left: 690px;
+}
+
+/* COMUNNITY SECTION */
+
+.section-pale {
+  background-color: #fafafa;
+}
+
+.global-cont {
+  padding: 50px;
+}
+
+.title-com {
+  margin-top: 60px;
+}
+
+.section-title {
+  display: inline;
+}
+
+.square {
+  background-color: white;
+  height: 270px;
+  width: 270px;
+}
+
+.rectangle {
+  background-color: #fadccd;
+  display: inline;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.p-square {
+  font-size: 23px;
+  margin-top: 50px;
+  line-height: 24px;
+}
+
+.instagram {
+  background-color: #fadccd;
+  font-size: 42px;
+  display: inline;
+  position: absolute;
+  padding: 9px 15px 9px 15px;
+  z-index: 1;
+}
+
+.img-square {
+  position: absolute;
+  margin: 20px;
+  width: 230px;
+  height: 230px;
+}
+
+.pcard {
+  font-family: Gill Sans;
+  font-size: 17px;
+  line-height: 19px;
+}
+
+.slide-up1 {
+  animation: Slide_Up 1.4s ease;
+}
+
+.slide-up2 {
+  animation: Slide_Up 2.1s ease;
+}
+
+.slide-up3 {
+  animation: Slide_Up 2.8s ease;
+}
+
+@keyframes Slide_Up {
+  0% {
+    transform: translateY(600px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* LOCATION SECTION */
+
+.location {
+  background: url(../images/9243814dd7e6eb150ba28b5450883fb1.png);
+  background-size: cover;
+  min-height: 500px;
+}
+
+.title-location {
+  padding: 80px 0 0 160px;
+  position: absolute;
+  margin: 0;
+  z-index: 1;
+}
+
+.caja {
+  background-color: white;
+  width: 250px;
+  height: 100px;
+  position: relative;
+  top: 105px;
+  left: 138px;
+  /* position: absolute;
+  left: 150px; */
+}
+
+.plocation {
+  font-family: Gill Sans;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 0;
+  height: 50px;
+  padding: 40px 10px 10px 15px;
+}
+
+.navigation {
+  font-size: 65px;
+  position: relative;
+  top: 180px;
+  left: 91px;
+}
+
+.img-zoom {
+  position: relative;
+  top: 400px;
+  left: 350px;
+}
+
+/* RECIPE SECTION */
+
+.recipe {
+  padding: 100px 0 100px 150px;
+}
+
+.recipe-title {
+  margin: 0;
+  line-height: 50px;
+}
+
+.arrange {
+  align-items: flex-end;
+  padding-right: 150px;
+  margin-bottom: 50px;
+}
+.rectangle-place {
+  display: inline-block;
+  float: right;
+}
+
+.link-to {
+  text-decoration: none;
+  color: black;
+}
+
+.title-number-big {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 10px;
+}
+
+.pnumber {
+  color: white;
+}
+
+.number-big {
+  background-color: rgba(0, 0, 0, 0.18);
+  font-size: 42px;
+  display: inline;
+  position: absolute;
+  padding: 9px 22px 9px 22px;
+  z-index: 1;
+}
+
+.arrow {
+  top: 50px;
+}
+
+.sheet-space1 {
+  width: 390px;
+  height: 590px;
+}
+
+.sheet-big {
+  width: 390px;
+  height: 560px;
+}
+
+.container-img-big {
+  width: 390px;
+  height: 350px;
+}
+
+.sheet-big img {
+  width: 390px;
+  height: 350px;
+  position: absolute;
+}
+
+.sheet-space2 {
+  width: 250px;
+  height: 485px;
+}
+
+.sheet {
+  width: 250px;
+  height: 455px;
+}
+.number {
+  background-color: rgba(0, 0, 0, 0.18);
+  font-size: 42px;
+  display: inline;
+  position: absolute;
+  padding: 0px 15px 0px 15px;
+  z-index: 1;
+}
+
+.title-number {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 10px;
+}
+
+.serving {
+  font-size: 15px;
+  color: white;
+}
+
+.container-img {
+  width: 250px;
+  height: 250px;
+}
+
+.sheet img {
+  width: 250px;
+  height: 250px;
+}
+
+.sheet-space3 {
+  width: 250px;
+  height: 485px;
+  margin-top: 105px;
+}
+
+.difficulty {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.precipe {
+  color: gray;
+}
+
+.user {
+  display: inline-block;
+}
+
+.arrow-move {
+  padding-right: 150px;
+  float: right;
+}
+
+.arrow-scroll {
+  font-size: 60px;
+}
+
+/* .move-container {
+  overflow-x: scroll;
+} */
+
+/* COLLABORATE SECTION */
+
+.section-pink {
+  background-color: #fadccd;
+}
+
+.dimension {
+  padding: 80px 150px 50px 150px;
+}
+
+.space {
+  width: 380px;
+}
+
+.pform {
+  font-family: Gill Sans;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+select {
+  background: none;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid black;
+  color: gray;
+}
+
+.btn-form {
+  color: #fadccd;
+  margin: 0;
+  font-size: 17px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #383837;
+  min-height: 300px;
+}
+
+.title {
+  color: #fadccd;
+  font-size: 17px;
+}
+
+.pfooter {
+  font-size: 15px;
+  color: gray;
+}
+
+.icon {
+  color: white;
+}
+
+.cosa {
+  display: flex;
+  justify-content: flex-end;
+}
+.cosa1 {
+  padding-left: 343px;
+}
