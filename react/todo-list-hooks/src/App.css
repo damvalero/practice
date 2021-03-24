@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+  background: #66ccff;
+}
+
+.App {
+  text-align: center;
+}
+.center-elements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #333;
+  font-family: 'Courgette', sans-serif;
+  margin-top: 25px;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Open+Sans', sans-serif;;
+  color: #333;
+  margin-right: 10px;
+  border: 2px solid #333;
+  border-radius: 4px;
+}
+
+input:focus {outline:0;}
+
+.form-btn {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Open+Sans', sans-serif;;
+  font-weight: 600;
+  color: #333;
+  background-color: #74c67a;
+  border: 2px solid #333;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 5px #999;
+}
+
+.form-btn:hover {background-color: #3e8e41}
+
+.form-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.note {
+  width: 200px !important;
+  padding: 10px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  margin: 10px 0px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  align-items: center;
+  animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.paragraph {
+  width: 90%;
+  padding: 0px 10px;
+  margin: 0px;
+  font-family: 'Open+Sans', sans-serif;;
+}
+
+.delete-block {
+  display: flex;
+  align-items: center;
+  width: 14%;
+}
+
+button:focus {outline:0;}
+
+.delete-btn {
+  background-color: #DC143C;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  border: none;
+  border: 2px solid #333;
+  border-radius: 14px;
+  box-shadow: 0 4px #999;
+
+}
+
+.delete-btn:hover {background-color: #C4110E}
+
+.delete-btn:active {
+  background-color: #C4110E;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+}
