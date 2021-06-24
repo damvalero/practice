@@ -1,0 +1,25 @@
+{
+  "name": "popcorn-hour",
+  "version": "1.0.0",
+  "description": "A MERN app practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "mern",
+    "practice"
+  ],
+  "author": "Daniel Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

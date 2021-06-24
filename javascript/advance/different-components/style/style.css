@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  font-size: 50px;
+  text-decoration: none;
+  color: brown;
+}
+
+.button:after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  display: block;
+  background: brown;
+  transition: 500ms;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+.button:hover::after {
+  width: 100%;
+}
